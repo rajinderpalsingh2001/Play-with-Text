@@ -1,2 +1,1 @@
-web: gunicorn Play-with-Text.wsgi
-
+web: gunicorn Play-with-Text.wsgi --log-file -
