@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '-*sjiwq-ta-9-mt@6=!k#ucour8(e570qzw80n)v0=c=nz4rs#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','playwithtext.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','http://downin.pythonanywhere.com/']
 
 
 # Application definition
